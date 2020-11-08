@@ -1,0 +1,7 @@
+{
+  "name": "bingo-crusher",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
