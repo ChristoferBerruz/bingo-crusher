@@ -1,0 +1,17 @@
+.pattern-card button{
+    height: 100%;
+    width: 100%;
+}
+
+.pattern-card table{
+    width: 100%;
+    height: 200px;
+}
+
+.pattern-card .selected{
+    background-color: rgb(235, 80, 80);
+}
+
+.pattern-card .not-select{
+    background-color: rgb(35, 7, 158);
+}
