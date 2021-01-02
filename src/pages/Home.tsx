@@ -1,8 +1,7 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import React from 'react';
 import './Home.css';
-import BingoCard from '../components/BingoCard/BingoCard';
-import {BingoCard as BCard} from '../models/bingo-models';
+import BingoCrusher from '../components/Main';
 
 const Home: React.FC = () => {
   return (
@@ -18,7 +17,7 @@ const Home: React.FC = () => {
             <IonTitle size="large">Blank</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <BingoCard bingoCard={BCard.defaultCard()} />
+        <BingoCrusher />
       </IonContent>
     </IonPage>
   );
